@@ -1,0 +1,16 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-header{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    gap: 16px;
+    
+}
+
+a {
+    text-decoration: none;
+}
