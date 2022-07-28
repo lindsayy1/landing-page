@@ -1,12 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
     border: 2px solid blue;
-    flex: auto;
-    align-items: center;;
+    align-items: center;
     margin: 0;
     padding: 0;
-    /*background-color: #1F2937;*/
+    height: 72px;
+    background-color: #1F2937;
 }
 
 .logo {
@@ -14,9 +21,10 @@
     font-size: 24px;
     color: #F9FAF8;
     margin-left: 200px;
+    padding: 0;
 }
 
-.links-header{
+.links{
     display: flex;
     list-style-type: none;
     justify-content: space-between;
@@ -24,18 +32,27 @@
     border: 2px solid red;
     font-size: 18px;
     margin-right: 200px;
-   
-    
-    
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
 }
+ ul {
+    padding: 0;
+    margin: 0;
+ }
 
-/*.top-background {
+ .first-stripe{
     display: flex;
-    background-color: #1F2937;
+    flex-direction: column;
+    border: 2px solid red;
+   
+ }
+
+ .title-first{
+    display: flex;
     border: 2px solid green;
-} */
+    justify-content: flex-start;
+    margin: 0 200px;
+ }
