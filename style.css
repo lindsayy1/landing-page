@@ -11,8 +11,8 @@ body{
     border: 2px solid blue;
     align-items: center;
     margin: 0;
-    padding: 0;
-    height: 72px;
+    padding-bottom: 25px;
+    padding-top: 25px;
     background-color: #1F2937;
 }
 
@@ -47,12 +47,32 @@ a {
     display: flex;
     flex-direction: column;
     border: 2px solid red;
-   
+    background-color: #1F2937;
+    padding-bottom: 25px;
+    padding-top: 25px;   
  }
 
  .title-first{
     display: flex;
     border: 2px solid green;
     justify-content: flex-start;
+    
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+ }
+
+ .text-first{
+    display:flex;
+    border: 2px solid yellow;
+    justify-content: flex-start;
+    margin: 16px 0;
+ }
+
+ .order-first{
+    display: flex;
+    border: 2px solid purple;
     margin: 0 200px;
  }
+
+
