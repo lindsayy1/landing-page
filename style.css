@@ -47,7 +47,7 @@ a {
     /*display: flex; */
     border: 2px solid red;
     background-color: #1F2937;
-    padding-bottom: 25px;
+    padding-bottom: 50px;
     padding-top: 25px;  
  }
 
@@ -137,7 +137,23 @@ a {
    border: 2px solid green; 
    flex-wrap: wrap;
    width: 150px;
-
   }
 
-  
+  .third-stripe{
+   border: 2px solid red;
+   padding-bottom: 25px;
+   padding-top: 25px;  
+  }
+
+  .quote{
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   font-size: 36px;
+   font-style: italic;
+   color: #1F2937;
+   border: 2px solid purple;
+   margin-left: 200px;
+   margin-right: 200px;
+   padding:16px;
+  }
