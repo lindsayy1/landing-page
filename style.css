@@ -1,6 +1,19 @@
 .header{
     display: flex;
     justify-content: space-between;
+    border: 2px solid blue;
+    flex: auto;
+    align-items: center;;
+    margin: 0;
+    padding: 0;
+    /*background-color: #1F2937;*/
+}
+
+.logo {
+    border: 2px solid yellow;
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-left: 200px;
 }
 
 .links-header{
@@ -8,9 +21,21 @@
     list-style-type: none;
     justify-content: space-between;
     gap: 16px;
+    border: 2px solid red;
+    font-size: 18px;
+    margin-right: 200px;
+   
+    
     
 }
 
 a {
     text-decoration: none;
+    color: #E5E7EB;
 }
+
+/*.top-background {
+    display: flex;
+    background-color: #1F2937;
+    border: 2px solid green;
+} */
