@@ -95,5 +95,21 @@ a {
     border: 2px solid orange; 
     font-size: 18px;
     color: #E5E7EB;
+ }
 
+ .second-stripe {
+   border: 2px solid red;
+   padding-bottom: 25px;
+   padding-top: 25px;  
+ }
+ .title-second{
+   border: 2px solid blue;
+   display: flex;
+   justify-content: center;
+ }
+
+ .all-groups{
+   display: flex;
+   gap: 16px;
+   justify-content: center;
  }
