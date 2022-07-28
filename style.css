@@ -53,30 +53,40 @@ a {
  }
 
  .left-first{
+   display: flex;
+   flex-direction: column;
+   flex: 1;
     border: 5px solid brown;
-    flex-direction: column;
+  
+   
  }
 
  .title-first{
     display: flex;
     border: 2px solid green;
     justify-content: flex-start;
-    
+    flex-wrap: wrap;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
+    
  }
 
  .text-first{
     display:flex;
     border: 2px solid yellow;
     justify-content: flex-start;
-    margin: 16px 0;
+    margin: 10px 0;
+    font-size: 18px;
+    color:#E5E7EB;
+    flex-wrap: wrap;
+    
  }
 
  .order-first{
     display: flex;
     border: 2px solid purple;
+    gap: 16px;
     margin-left: 200px;
     margin-right: 200px;
  }
@@ -88,8 +98,7 @@ a {
     align-items: center;
     justify-content: center;
     background-color: gray;
-    margin-right: 0;
-    margin-left: 20px;
+    
  }
 
  .placeholder-first{
@@ -174,3 +183,11 @@ a {
    font-style: italic;
    color: #1F2937;
   }
+ button {
+   background-color: #3882F6;
+   color: white;
+   border-radius: 6px;
+   padding-left: 10px;
+   padding-right: 10px;
+ }
+ 
