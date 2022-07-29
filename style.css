@@ -55,8 +55,10 @@ a {
  .left-first{
    display: flex;
    flex-direction: column;
+   align-items: flex-start;
    flex: 1;
-    border: 5px solid brown;
+   border: 5px solid brown;
+   
   
    
  }
@@ -65,17 +67,18 @@ a {
     display: flex;
     border: 2px solid green;
     justify-content: flex-start;
+    width: 350px;
     flex-wrap: wrap;
     font-size: 48px;
     font-weight: 800;
     color: #F9FAF8;
-    
  }
 
  .text-first{
     display:flex;
     border: 2px solid yellow;
     justify-content: flex-start;
+    width: 450px;
     margin: 10px 0;
     font-size: 18px;
     color:#E5E7EB;
@@ -86,7 +89,6 @@ a {
  .order-first{
     display: flex;
     border: 2px solid purple;
-    gap: 16px;
     margin-left: 200px;
     margin-right: 200px;
  }
