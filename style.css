@@ -136,12 +136,14 @@ a {
  }
 
  .square-second{
-   border-radius: 25px;
+   border-radius: 12px;
    border: 2px solid #3882F6;
    padding: 20px;
-   width: 150px;
-   height: 150px;
-   margin: 16px;
+   width: 75px;
+   height: 75px;
+   margin-left: 16px;
+   margin-right: 16px;
+   margin-bottom: 8px;
  }
   .group1, .group2, .group3, .group4 {
    display: flex;
@@ -149,7 +151,7 @@ a {
    border: 2px solid orange; 
    justify-content: center;
    align-items: center;
-   padding: 28px;
+   padding: 16px;
   }
 
   .text-second{
@@ -157,6 +159,7 @@ a {
    border: 2px solid green; 
    flex-wrap: wrap;
    width: 150px;
+   color: gray;
   }
 
   .third-stripe{
@@ -206,5 +209,19 @@ a {
    padding-bottom: 25px;
    padding-top: 25px;
    background-color: white;
+   display: flex;
+   justify-content: center;
 
+ }
+
+ .fourth-all{
+   display: flex;
+   justify-content: center;
+   background-color: #3882F6;
+   border: 2px solid brown;
+   border-radius: 6px;
+   padding-left: 250px;
+   padding-right: 250px;
+   padding-top: 80px;
+   padding-bottom: 80px;
  }
