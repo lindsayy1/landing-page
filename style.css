@@ -1,9 +1,13 @@
 body{
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 250px;
+    margin-right: 250px;
     padding: 0;
     font-family: Helvetica, sans-serif;
+    background-color: black;
 }
 
 .header{
@@ -58,9 +62,6 @@ a {
    align-items: flex-start;
    flex: 1;
    border: 5px solid brown;
-   
-  
-   
  }
 
  .title-first{
@@ -83,7 +84,10 @@ a {
     font-size: 18px;
     color:#E5E7EB;
     flex-wrap: wrap;
-    
+ }
+
+ button.sign-up1{
+   border:  #3882F6;
  }
 
  .order-first{
@@ -113,6 +117,7 @@ a {
    border: 2px solid red;
    padding-bottom: 25px;
    padding-top: 25px;
+   background-color: white;
  }
  .title-second{
    border: 2px solid blue;
@@ -189,7 +194,17 @@ a {
    background-color: #3882F6;
    color: white;
    border-radius: 6px;
-   padding-left: 10px;
-   padding-right: 10px;
+   padding-left: 25px;
+   padding-right: 25px;
+   padding-top: 8px;
+   padding-bottom: 8px;
  }
+
  
+ .fourth-stripe{
+   border: 2px solid red;
+   padding-bottom: 25px;
+   padding-top: 25px;
+   background-color: white;
+
+ }
