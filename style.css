@@ -207,8 +207,8 @@ a {
  
  .fourth-stripe{
    /*border: 2px solid red;*/
-   padding-bottom: 50px;
-   padding-top: 50px;
+   padding-bottom: 75px;
+   padding-top: 75px;
    background-color: white;
  }
 
@@ -217,8 +217,8 @@ a {
    margin-right: 200px;
    /*border: 2px solid yellow;*/
    background-color: #3882F6;
-   padding-top: 60px;
-   padding-bottom: 60px;
+   padding-top: 50px;
+   padding-bottom: 50px;
    font-size: 18px;
    border-radius: 12px;
  }
